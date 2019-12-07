@@ -14,6 +14,10 @@ function Install-DevTools {
     choco install docker-desktop -y
     choco install kubernetes-cli -y 
     choco install kubernetes-helm -y
+    choco install googlechrome -y
+    choco install nodejs.install -y
+    choco install visualstudio2019professional -y
+    choco install jetbrains-rider -y
     
     # choco install invoke-build -y
     # assumming visual studio is already installed
